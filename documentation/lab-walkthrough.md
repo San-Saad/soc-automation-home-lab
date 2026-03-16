@@ -25,7 +25,7 @@ The environment used for this project includes:
 
 # Step 1 – Virtual Lab Setup
 
-A Windows 11 virtual machine was created using VirtualBox to simulate an endpoint device.
+A Windows 10 virtual machine was created using VirtualBox to simulate an endpoint device.
 
 The endpoint is used to generate telemetry and simulate attacker behavior.
 
