@@ -194,5 +194,7 @@ This project demonstrates several core **SOC analyst skills**:
 
 ---
 
-# Repository Structure
+# Author
+
+San Saad 
 
