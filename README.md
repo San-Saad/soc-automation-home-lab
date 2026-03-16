@@ -13,7 +13,7 @@ This project demonstrates how modern SOC teams combine **SIEM, endpoint monitori
 # Architecture
 
 The SOC pipeline implemented in this lab:
-Windows 11 Endpoint
+Windows 10 Endpoint
 ->
 Sysmon Telemetry
 ->
@@ -43,7 +43,7 @@ Architecture diagram:
 | **Shuffle** | SOAR platform used for automation workflows |
 | **VirusTotal** | Threat intelligence enrichment |
 | **TheHive** | Incident response case management platform |
-| **Windows 11** | Endpoint used to simulate attack activity |
+| **Windows 10** | Endpoint used to simulate attack activity |
 
 ---
 
@@ -55,7 +55,7 @@ The project simulates a full SOC detection and response pipeline.
 
 ## 1. Endpoint Telemetry Collection
 
-Sysmon is installed on a Windows 11 virtual machine to generate detailed telemetry including:
+Sysmon is installed on a Windows 10 virtual machine to generate detailed telemetry including:
 
 - Process creation
 - File hashes
