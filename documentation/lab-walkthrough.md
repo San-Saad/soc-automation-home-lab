@@ -14,7 +14,7 @@ The environment used for this project includes:
 
 | Component | Purpose |
 |----------|---------|
-| Windows 11 VM | Endpoint used to simulate attacker activity |
+| Windows 10 VM | Endpoint used to simulate attacker activity |
 | Sysmon | Generates detailed endpoint telemetry |
 | Wazuh | SIEM platform used for log collection and detection |
 | Shuffle | SOAR automation platform |
@@ -30,7 +30,7 @@ A Windows 11 virtual machine was created using VirtualBox to simulate an endpoin
 The endpoint is used to generate telemetry and simulate attacker behavior.
 
 Screenshot:
-screenshots/setup/windows11-vm.png
+![Windows 10 VM](../screenshots/setup/windows10-vm.png)
 
 
 ---
@@ -52,7 +52,7 @@ Installation command: sysmon -accepteula -i sysmonconfig.xml
 
 Screenshot reference:
 
-screenshots/setup/sysmon-install.png
+![Sysmon Installation](../screenshots/setup/sysmon-install.png)
 
 ---
 
@@ -64,7 +64,7 @@ The Wazuh dashboard allows analysts to monitor alerts and security events.
 
 Screenshot reference:
 
-screenshots/wazuh/wazuh-dashboard.png
+![Wazuh Dashboard](../screenshots/wazuh/wazuh-dashboard.png)
 
 ---
 
@@ -76,7 +76,7 @@ Once the agent connects successfully, the endpoint appears in the Wazuh dashboar
 
 Screenshot reference:
 
-screenshots/wazuh/wazuh-agent-connected.png
+![Wazuh Agent Connected](../screenshots/wazuh/wazuh-agent-connected.png)
 
 ---
 
@@ -90,7 +90,7 @@ Detect process creation where originalFileName = mimikatz.exe
 
 Screenshot reference:
 
-screenshots/wazuh/wazuh-custom-rule.png
+![Custom Wazuh Rule](../screenshots/wazuh/wazuh-custom-rule.png)
 
 ---
 
@@ -102,7 +102,7 @@ This simulated attacker behavior and generated Sysmon telemetry.
 
 Screenshot reference:
 
-screenshots/detection/mimikatz-execution.png
+![Mimikatz Execution](../screenshots/detection/mimikatz-execution.png)
 
 ---
 
@@ -112,7 +112,7 @@ The custom detection rule successfully detected the malicious activity and gener
 
 Screenshot reference:
 
-screenshots/detection/wazuh-alert-triggered.png
+![Wazuh Alert Triggered](../screenshots/detection/wazuh-alert-triggered.png)
 
 ---
 
@@ -129,7 +129,7 @@ Shuffle automates the following tasks:
 
 Screenshot reference:
 
-screenshots/automation/shuffle-workflow-dashboard.png
+![Shuffle Workflow](../screenshots/automation/shuffle-workflow-dashboard.png)
 
 ---
 
@@ -139,7 +139,7 @@ Shuffle extracts the file hash from the alert and queries **VirusTotal** to dete
 
 Screenshot reference:
 
-screenshots/automation/virustotal-success.png
+![VirusTotal Result](../screenshots/automation/virustotal-success.png)
 
 ---
 
@@ -151,7 +151,7 @@ This allows SOC analysts to track incidents and perform further analysis.
 
 Screenshot reference:
 
-screenshots/thehive/thehive-alert-created.png
+![TheHive Alert](../screenshots/thehive/thehive-alert-created.png)
 
 ---
 
@@ -161,7 +161,7 @@ Finally, an email notification is sent to the SOC analyst informing them that su
 
 Screenshot reference:
 
-screenshots/notifications/soc-alert-email.png
+![SOC Alert Email](../screenshots/notifications/soc-alert-email.png)
 
 ---
 
