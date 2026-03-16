@@ -30,7 +30,7 @@ SOC Analyst Email Notification
 
 Architecture diagram:
 
-![SOC Architecture](architecture/soc-architecture-diagram.png)
+![SOC Architecture](architecture/soc-architechure.png)
 
 ---
 
