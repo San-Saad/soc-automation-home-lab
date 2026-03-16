@@ -14,17 +14,17 @@ This project demonstrates how modern SOC teams combine **SIEM, endpoint monitori
 
 The SOC pipeline implemented in this lab:
 Windows 11 Endpoint
-↓
+->
 Sysmon Telemetry
-↓
+->
 Wazuh SIEM
-↓
+->
 Shuffle SOAR Automation
-↓
+->
 VirusTotal Threat Intelligence
-↓
+->
 TheHive Incident Response
-↓
+->
 SOC Analyst Email Notification
 
 
