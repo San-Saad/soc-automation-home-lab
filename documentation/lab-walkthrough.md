@@ -160,7 +160,7 @@ Screenshot reference:
 Finally, an email notification is sent to the SOC analyst informing them that suspicious activity has been detected.
 
 Screenshot reference:
-
+![SOC Alert Email config](../screenshots/notifications/soc-email-config.png)
 ![SOC Alert Email](../screenshots/notifications/soc-alert-email.png)
 
 ---
